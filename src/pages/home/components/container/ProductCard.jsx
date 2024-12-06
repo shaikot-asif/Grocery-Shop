@@ -14,12 +14,14 @@ const ProductCard = ({ classes, photo, name, money }) => {
         <h3 className="font-rubik font-semibold text-[18px] ">{name}</h3>
         <p className="text-[#4A4A52] mb-[4px]">${money}/kg</p>
 
-        <NavButton
-          classes={
-            "!border-[#A6A6A6] py-[12px] px-[24px] rounded-[8px] group-hover:!border-primary-orange w-full !text-black group-hover:bg-primary-orange group-hover:shadow-lg group-hover:!text-white transition-all duration-300"
-          }
-          text={"Add to cart"}
-        />
+        <span>
+          <NavButton
+            classes={
+              "!border-[#A6A6A6] py-[12px] px-[24px] rounded-[8px] group-hover:!border-primary-orange w-full !text-black group-hover:bg-primary-orange group-hover:shadow-lg group-hover:!text-white transition-all duration-300"
+            }
+            text={"Add to cart"}
+          />
+        </span>
       </div>
     </div>
   );

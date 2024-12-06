@@ -38,8 +38,6 @@ const AllCategory = () => {
     setSelectedCategorysProduct(categorizedProducts);
   }, [categorizedProducts, categoryId]);
 
-  console.log(selectedCategorysProduct, "selected");
-
   return (
     <div>
       {categoryLoading ? (

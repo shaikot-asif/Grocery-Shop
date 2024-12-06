@@ -29,7 +29,7 @@ const testimonial = [
 
 const Testimonial = () => {
   const [TIndex, setTIndex] = useState(0);
-  console.log(TIndex);
+
   return (
     <div className="relative max-w-[1440px]  text-center block m-auto mt-[66px] md:mt-[150px] w-full px-4 lg:px-[14.86%] overflow-hidden">
       <SectionTop

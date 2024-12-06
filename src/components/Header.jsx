@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import images from "../constants/Images";
 import Paragraph1 from "./shared/Paragraph1";
 import NavButton from "./shared/Button/NavButton";
+import { useDispatch, useSelector } from "react-redux";
 
 const navItem = [
   { name: "Home", path: "/" },
@@ -56,7 +57,9 @@ const Header = () => {
             </div>
             <Paragraph1 classes={"text-white"} text={"Cart"} />
           </button>
-          <NavButton text={"Sign in"} />
+          <span onClick={() => setPopupSignIn(true)}>
+            <NavButton text={"Sign in"} />
+          </span>
         </div>
 
         <div className=" lg:hidden self-center flex flex-row gap-6 justify-center items-center ">
