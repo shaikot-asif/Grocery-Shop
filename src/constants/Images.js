@@ -19,8 +19,42 @@ import bottomClipPath from "../assets/bottomClipPath.png";
 import appsStore from "../assets/appstore.png";
 import googleplay from "../assets/googleplay.png";
 import navBar from "../assets/navBar.png";
+import ourProductClip from "../assets/ourProductClip.png";
+import aboutImg from "../assets/aboutImg.png";
+import seasonalClip from "../assets/seasonalClip.png";
+import seasonalClipP1 from "../assets/seasonalClipP1.png";
+import seasonalClipP2 from "../assets/seasonalClipP2.png";
+import seasonalFruits from "../assets/seasonalFruits.png";
+import testiminialImg from "../assets/testiminialImg.png";
+import asif from "../assets/asif.jpg";
+import blog1 from "../assets/blog1.png";
+import blog2 from "../assets/blog2.png";
+import blog3 from "../assets/blog3.png";
+import rightIcon from "../assets/rightIcon.png";
+import call from "../assets/call.png";
+import email from "../assets/email.png";
+import location from "../assets/location.png";
+import visa from "../assets/visa.png";
+import paypal from "../assets/paypal.png";
+import pay from "../assets/pay.png";
+import t from "../assets/1.png";
+import f from "../assets/2.png";
+import i from "../assets/3.png";
 
 const images = {
+  t,
+  f,
+  i,
+  visa,
+  paypal,
+  pay,
+  call,
+  email,
+  location,
+  blog1,
+  blog2,
+  blog3,
+  rightIcon,
   heroBg,
   logo,
   cartIcon,
@@ -40,6 +74,14 @@ const images = {
   appsStore,
   googleplay,
   navBar,
+  ourProductClip,
+  aboutImg,
+  seasonalClip,
+  seasonalClipP1,
+  seasonalFruits,
+  seasonalClipP2,
+  testiminialImg,
+  asif,
 };
 
 export default images;

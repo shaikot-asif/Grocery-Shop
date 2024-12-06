@@ -8,7 +8,7 @@ export default {
           green: "#749B3F",
           orange: "#FF6A1A",
         },
-        black: "#212337",
+        blacks: "#212337",
         grey: {
           grey100: "#4A4A52",
           grey80: "#A6A6A6",

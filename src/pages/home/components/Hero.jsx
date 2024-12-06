@@ -9,7 +9,7 @@ const Hero = () => {
   return (
     <div
       style={{ backgroundImage: `url(${images.fullBgHero})` }}
-      className="relative max-w-[1439px] block m-auto top-[-100px] w-full h-[800px] lg:h-[877px] overflow-x-hidden overflow-y-hidden "
+      className="relative max-w-[1440px] block m-auto top-[-100px] w-full h-[800px] lg:h-[877px] overflow-x-hidden overflow-y-hidden "
     >
       <div className=" relative ">
         <div className="w-[30%] lg:w-[34.81%] h-[877px] absolute top-0 right-0  ">
@@ -30,7 +30,7 @@ const Hero = () => {
         <img src={images.heroClipPth} alt="" />
       </div>
 
-      <div className="pt-[120px]  lg:pt-[178px]  px-2 lg:px-[8.34%] relative ">
+      <div className="pt-[120px]  lg:pt-[178px]  px-2 lg:px-[8.33%] relative ">
         <SectionTopText
           classes={"inline-block mb-[16px] "}
           text={"Welcome to Fresh Harvest"}

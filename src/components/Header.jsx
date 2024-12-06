@@ -14,8 +14,8 @@ const navItem = [
 const Header = () => {
   const [isMenu, setIsMenu] = useState(false);
   return (
-    <header className=" max-w-[1439px] h-[100px]  m-auto bg-transparent relative z-40 ">
-      <div className=" px-2 lg:px-[8.34%] flex justify-between items-center h-full m-auto">
+    <header className=" max-w-[1440px] h-[100px]  m-auto bg-transparent relative z-40 ">
+      <div className=" px-2 lg:px-[8.33%] flex justify-between items-center h-full m-auto">
         <Link
           className="inline-flex w-[181px] md:w-[224.34px] items-center gap-[9.75px] "
           to={"/"}
